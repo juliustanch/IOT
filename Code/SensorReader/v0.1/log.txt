@@ -1,0 +1,6 @@
+SensorReader.py v0.1
+
+- First version of sensor reader
+- Created BaseReader for common operations
+- Port over ModbusReader
+- Integrated ADC Reader

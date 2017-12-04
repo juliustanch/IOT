@@ -1,0 +1,14 @@
+SensorReader.py v0.4
+
+Changes:
+- Cleaned up documentation
+- Added two more modular functions: get_output_row, update_output_file
+- Induce prev. file upload to dropbox immediately whenever new day arrives
+
+Known bugs:
+- Raspberry Pi will revert timezone to 2014/10/14 at some times
+
+Future feature to be implemented:
+- Zip output files
+- I2C and SPI connectivity test
+- Read input methods for each sensor

@@ -1,0 +1,16 @@
+SensorReader.py v0.2
+
+Changes:
+- Integrated RTD Reader
+- Integrated into Irridiance Sensor (ADC + RTD)
+- Provides option to print output in console
+- Provides option to give an output file folder to save in
+
+Known bugs:
+- Second precision still a problem ~ seconds will keep going down
+- Raspberry Pi will revert timezone to 2014/10/14 at some times
+
+Future feature to be implemented:
+- Zip output files
+- I2C and SPI connectivity test
+- Specialized methods to implement read_all_request

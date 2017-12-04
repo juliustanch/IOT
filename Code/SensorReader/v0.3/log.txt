@@ -1,0 +1,15 @@
+SensorReader.py v0.3
+
+Changes:
+- Integrated PostgreSQL update to database
+- Attempted to solve the second precision bug
+- Solved RTD discrete value bug
+- Revised Irradiance formula error
+
+Known bugs:
+- Raspberry Pi will revert timezone to 2014/10/14 at some times
+
+Future feature to be implemented:
+- Zip output files
+- I2C and SPI connectivity test
+- Specialized methods to implement read_all_request
